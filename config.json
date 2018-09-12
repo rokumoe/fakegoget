@@ -1,0 +1,65 @@
+[
+    {
+        "pattern": "golang.org/x/lint",
+        "pkg": "golang.org/x/lint",
+        "vcs": "git",
+        "repo": "https://github.com/golang/lint",
+        "source": "https://github.com/golang/lint/",
+        "sourcedir": "https://github.com/golang/lint/tree/master{/dir}",
+        "sourceline": "https://github.com/golang/lint/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "golang.org/x/tools/.*",
+        "pkg": "golang.org/x/tools",
+        "vcs": "git",
+        "repo": "https://github.com/golang/tools",
+        "source": "https://github.com/golang/tools/",
+        "sourcedir": "https://github.com/golang/tools/tree/master{/dir}",
+        "sourceline": "https://github.com/golang/tools/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "golang.org/x/text/.*",
+        "pkg": "golang.org/x/text",
+        "vcs": "git",
+        "repo": "https://github.com/golang/text",
+        "source": "https://github.com/golang/text/",
+        "sourcedir": "https://github.com/golang/text/tree/master{/dir}",
+        "sourceline": "https://github.com/golang/text/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "golang.org/x/sys/.*",
+        "pkg": "golang.org/x/sys",
+        "vcs": "git",
+        "repo": "https://github.com/golang/sys",
+        "source": "https://github.com/golang/sys/",
+        "sourcedir": "https://github.com/golang/sys/tree/master{/dir}",
+        "sourceline": "https://github.com/golang/sys/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "golang.org/x/net/.*",
+        "pkg": "golang.org/x/net",
+        "vcs": "git",
+        "repo": "https://github.com/golang/net",
+        "source": "https://github.com/golang/net/",
+        "sourcedir": "https://github.com/golang/net/tree/master{/dir}",
+        "sourceline": "https://github.com/golang/net/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "google.golang.org/grpc/.*",
+        "pkg": "google.golang.org/grpc",
+        "vcs": "git",
+        "repo": "https://github.com/grpc/grpc-go",
+        "source": "https://github.com/grpc/grpc-go/",
+        "sourcedir": "https://github.com/grpc/grpc-go/tree/master{/dir}",
+        "sourceline": "https://github.com/grpc/grpc-go/blob/master{/dir}/{file}#L{line}"
+    },
+    {
+        "pattern": "google.golang.org/genproto/.*",
+        "pkg": "google.golang.org/genproto",
+        "vcs": "git",
+        "repo": "https://github.com/google/go-genproto",
+        "source": "https://github.com/google/go-genproto/",
+        "sourcedir": "https://github.com/google/go-genproto/tree/master{/dir}",
+        "sourceline": "https://github.com/google/go-genproto/blob/master{/dir}/{file}#L{line}"
+    }
+]

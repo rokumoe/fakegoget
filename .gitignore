@@ -1,0 +1,6 @@
+*.csr
+*.crt
+*.key
+*.srl
+
+/fakegoget

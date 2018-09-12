@@ -1,0 +1,5 @@
+openssl genrsa -out ca.key 2048
+openssl req -x509 -new -nodes -key ca.key -subj "/CN=ca" -days 9999 -out ca.crt
+openssl genrsa -out server.key 2048
+openssl req -new -key server.key -subj "/CN=golang.org/subjectAltName=DNS.1=*.golang.org,DNS.2=go.googlesource.com" -out server.csr
+openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 9999
